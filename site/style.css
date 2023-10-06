@@ -1,0 +1,45 @@
+.intro {
+    background-color: #EEEFF1;
+    padding: 10px 0 200px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 42px;
+    margin-top: 30px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+}
+
+.intro-header {
+    font-size: 48px;
+    color: black;
+    margin-top: 120px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.intro-text {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.write-me-btn {
+    margin-top: 60px;
+    margin-left: 70px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #34547A;
+    padding: 12px 40px 12px;
+}
