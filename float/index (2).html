@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="box1">1</div>
+      <div class="box2">2</div>
+    </div> 
+
+    <div class="container-2">
+      <div class="box1">1</div>
+      <div class="boxes">
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+      </div>
+    </div> 
+
+     <div class="container-3">
+      <div class="first">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+      </div>
+      <div class="all">
+        <div class="right">
+          <div class="box3">3</div>
+          <div class="box4">4</div>
+      </div>
+      </div>
+      </div>
+    </div> 
+
+    <style>
+
+      .container-3 .all {
+        float: right;
+      }
+
+      .right div,
+      .boxes div,
+      .container-3 div {
+        display: inline-block;
+      }
+
+      .container-1 .box1,
+      .container-2 .box1,
+      .container-3 .box1,
+      .container-3 .box2 {
+        float: left;
+      }
+
+      .container-1 .box2,
+      .container-3 .box3,
+      .container-3 .box4,
+      .boxes {
+        float: right;
+      }
+
+
+
+      .container-1,
+      .container-2,
+      .container-3 {
+        border: 5px solid red;
+        height: 100px;
+      }
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        height: 100px;
+        width: 100px;
+        background-color: coral;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+      }
+    </style>
+  </body>
+</html>
