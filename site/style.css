@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
 .intro {
     background-color: #EEEFF1;
-    padding: 10px 0 200px;
+    padding: 10px 0 150px;
+    font-family: "Roboto Flex";
 }
 
 .container {
@@ -35,11 +38,35 @@
     margin-left: 70px;
 }
 
-.write-me-btn {
+.bottom {
     margin-top: 60px;
+}
+
+.write-me-btn {
     margin-left: 70px;
     font-size: 16px;
     color: #FFFFFF;
     background-color: #34547A;
     padding: 12px 40px 12px;
+}
+
+.about {
+    background-color: #fbfbfc;
+    padding: 80px 0;
+    font-family: "Roboto Flex";
+}
+
+.about-container {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-text {
+    text-align: center;
+    color:#727272;
+    margin-top: 30px;
 }
