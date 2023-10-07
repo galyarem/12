@@ -13,7 +13,7 @@
 
 .nav-item {
     display: inline-block;
-    margin-left: 42px;
+    margin-left: 30px;
     margin-top: 30px;
 }
 
@@ -126,10 +126,27 @@
 
 .video {
     margin-top: 60px;
-    margin-left: 230px;
+    margin-left: 280px;
 }
 
 .video-img {
-    width: 1100px;
+    width: 1030px;
     height: 600px;
+}
+
+.author {
+    background-color: #34547A;
+    font-family: "Roboto Flex";
+    padding: 30px 0;
+}
+
+.conteiner-author {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 280px;
+}
+
+.who,
+.when {
+    color: #FFFFFF;
 }
