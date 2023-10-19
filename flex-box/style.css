@@ -80,6 +80,97 @@
  }
 
  /* header end */
- 
+
  /* slider-wrapper start */
 
+ .slider-wrapper {
+    background-image: url(./img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 190px 0;
+    color: #EFEFEF;
+ }
+
+ .slider-wrapper-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+ }
+
+ .slider-wrapper-text {
+    font-size: 14px;
+    margin-bottom: 40px;
+    line-height: 20px;
+ }
+
+.slider-wrapper-more {
+   padding: 15px 25px;
+   border: 2px solid #FFF;
+   color: #EFEFEF;
+   background-color: #efefef00;
+   border-radius: 20px;
+}
+
+/* slider-wrapper end */
+
+/* grey-section start */
+
+.grey-section {
+    background-color: #EFEFEF;
+    padding: 40px 0;
+    margin-top: -20px;
+}
+
+.chair-text {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 30px 0 15px;
+}
+
+.chair-box {
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   margin: 35px;
+}
+
+.box {
+   background-color: #ffffff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding: 10px 39px;
+   width: 255px;
+   height: 363px;
+}
+
+.img-chair {
+   margin: 20px;
+}
+ 
+.chair-text-box {
+   text-align: center;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.chair-price {
+   font-size: 21px;
+   font-weight: 500;
+   letter-spacing: 1.05px;
+   margin: 20px;
+}
+
+.buy-button {
+   padding: 9px 53px;
+   border-radius: 30px;
+   background-color: #F13C6E;
+   color: #EFEFEF;
+}
+
+.icons-about {
+   display: flex;
+   flex-grow: 1;
+   justify-content: space-around;
+   padding: 30px 15px;
+   margin-top: 60px;
+}
