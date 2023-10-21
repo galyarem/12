@@ -118,7 +118,7 @@
 .grey-section {
     background-color: #EFEFEF;
     padding: 40px 0;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .chair-text {
@@ -136,8 +136,6 @@
 
 .box {
    background-color: #ffffff;
-   padding-top: 10px;
-   padding-bottom: 10px;
    padding: 10px 39px;
    width: 255px;
    height: 363px;
@@ -169,8 +167,23 @@
 
 .icons-about {
    display: flex;
-   flex-grow: 1;
-   justify-content: space-around;
-   padding: 30px 15px;
-   margin-top: 60px;
+   justify-content: space-between;
+   padding: 40px 0;
+ 
+}
+
+.post { 
+   display: flex;
+   align-items: center;
+   width: 540px;
+   height: 212px;
+   background-color: #F13C6E;
+}
+
+.delivery {
+   display: flex;
+   align-items: center;
+   width: 540px;
+   height: 212px;
+   background-color: #F13C6E;
 }
