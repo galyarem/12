@@ -89,6 +89,7 @@
     background-position: center;
     padding: 190px 0;
     color: #EFEFEF;
+    background-color: #F13C6E;
  }
 
  .slider-wrapper-title {
@@ -165,25 +166,80 @@
    color: #EFEFEF;
 }
 
-.icons-about {
+.red-box {
    display: flex;
-   justify-content: space-between;
-   padding: 40px 0;
- 
+   justify-content: space-around;
+   padding: 45px 0;
 }
 
-.post { 
+.delivery-box{
    display: flex;
    align-items: center;
-   width: 540px;
-   height: 212px;
    background-color: #F13C6E;
 }
 
-.delivery {
+.post-box {
    display: flex;
    align-items: center;
-   width: 540px;
-   height: 212px;
    background-color: #F13C6E;
+}
+
+.information-delivery {
+   padding: 50px 50px 50px 60px;
+   margin: 15px;
+}
+
+.information-post {
+   padding: 50px 60px 50px 50px;
+   margin: 15px;
+}
+
+.text-delivery {
+   color: #FFF;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.img-delivery {
+   padding: 0 35px;
+}
+
+.img-post {
+   padding: 0 35px;
+}
+
+.text-post {
+   color: #FFF;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.p-delivery {
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 400;
+   margin-top: 20px;
+}
+
+.p-post {
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 400;
+   margin-top: 20px;
+}
+
+.button-delivery {
+   padding: 7px 65px;
+   border-radius: 10px;
+   color: #C4C4C4;
+   margin-top: 20px;
+}
+
+.button-post {
+   padding: 7px 40px;
+   border: 2px solid #FFF;
+   color: #EFEFEF;
+   background-color: #efefef00;
+   border-radius: 20px;
+   margin-top: 20px;
 }
