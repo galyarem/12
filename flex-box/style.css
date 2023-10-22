@@ -89,7 +89,7 @@
     background-position: center;
     padding: 190px 0;
     color: #EFEFEF;
-    background-color: #F13C6E;
+     background-color: #F13C6E;
  }
 
  .slider-wrapper-title {
@@ -125,7 +125,7 @@
 .chair-text {
     font-size: 24px;
     font-weight: 700;
-    padding: 30px 0 15px;
+    margin-top: 50px;
 }
 
 .chair-box {
@@ -137,9 +137,8 @@
 
 .box {
    background-color: #ffffff;
-   padding: 10px 39px;
-   width: 255px;
-   height: 363px;
+   padding: 30px 39px;
+   margin: 10px;
 }
 
 .img-chair {
@@ -219,6 +218,7 @@
    font-size: 14px;
    font-weight: 400;
    margin-top: 20px;
+   line-height: 140.625%;
 }
 
 .p-post {
@@ -226,6 +226,7 @@
    font-size: 14px;
    font-weight: 400;
    margin-top: 20px;
+   line-height: 140.625%;
 }
 
 .button-delivery {
@@ -242,4 +243,23 @@
    background-color: #efefef00;
    border-radius: 20px;
    margin-top: 20px;
+}
+
+.flex-container-impuls {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1px;
+   margin-left: 30px;
+   margin-top: 35px;
+}
+
+.impuls {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.img-impuls {
+   padding: 35px 67px;
+   background-color: white;
 }
