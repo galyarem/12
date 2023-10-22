@@ -125,6 +125,7 @@
 .chair-text {
     font-size: 24px;
     font-weight: 700;
+    padding: 20px 0 0 0;
     margin-top: 50px;
 }
 
@@ -262,4 +263,40 @@
 .img-impuls {
    padding: 35px 67px;
    background-color: white;
+}
+
+/* grey-section end */
+
+/* footer start */
+
+.navigation-module {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.nav-box {
+   padding: 45px 65px;
+}
+
+.title-nav-box {
+   padding: 15px 88px 22px 0;
+   color: #000;
+   font-size: 16px;
+   font-weight: 500;
+   font-style: normal;
+   line-height: 140.625%;
+   border-bottom: 1px solid #c4c4c4d7;
+}
+
+.nav-list {
+   margin-top: 20px;
+}
+
+.nav-list-li {
+   color: var(--828282, #828282);
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
 }
