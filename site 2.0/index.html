@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Simple site</title>
 </head>
 <body>
@@ -12,23 +12,25 @@
         <div class="intro__container">
             <header class="intro__header">
                 <nav class="intro__navigation">
-                    <ul class="intro__navigation__nav-list">
-                        <li class="intro__navigation__nav-item">
-                            <a href="#" class="intro__navigation__nav-link">Homepage</a>
-                        </li>
-                        <li class="intro__navigation__nav-item">
-                            <a href="#" class="intro__navigation__nav-link">About author</a>
-                        </li>
-                        <li class="intro__navigation__nav-item">
-                            <a href="#" class="intro__navigation__nav-link">Works</a>
-                        </li>
-                        <li class="intro__navigation__nav-item">
-                            <a href="#" class="intro__navigation__nav-link">Process</a>
-                        </li>
-                        <li class="intro__navigation__nav-item">
-                            <a href="#" class="intro__navigation__nav-link">Contacts</a>
-                        </li>
-                    </ul>
+                    <div class="intro__navigation__list">
+                        <ul class="intro__navigation__nav-list">
+                            <li class="intro__navigation__nav-item">
+                                <a href="#" class="intro__navigation__nav-a another">Homepage</a>
+                            </li>
+                            <li class="intro__navigation__nav-item">
+                                <a href="#" class="intro__navigation__nav-a">About author</a>
+                            </li>
+                            <li class="intro__navigation__nav-item">
+                                <a href="#" class="intro__navigation__nav-a">Works</a>
+                            </li>
+                            <li class="intro__navigation__nav-item">
+                                <a href="#" class="intro__navigation__nav-a">Process</a>
+                            </li>
+                            <li class="intro__navigation__nav-item">
+                                <a href="#" class="intro__navigation__nav-a">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
                 <h1 class="intro__header-title">Design and layout</h1>
                 <p class="intro__header-text">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum <br/> has been the standard "fish" for Latin texts since the early 16th century.</p>
@@ -39,7 +41,7 @@
         </div>
     </div>
     <div class="about">
-        <div class="container about__container">
+        <div class="intro__container about__container">
             <h2 class="about__title">About me</h2>
             <p class="about__text">About meLorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
         </div>
