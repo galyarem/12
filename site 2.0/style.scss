@@ -21,13 +21,14 @@ $size-text-middle: 32px;
 }
 
 .intro__navigation-list {
-    padding: 45px 0 0;
+    padding: 45px 0 0 60px;
 }
 
 .intro__navigation-nav-list {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    gap: 45px;
+    gap: 70px;
 }
 
 .intro__navigation-nav {
@@ -38,6 +39,46 @@ $size-text-middle: 32px;
 
 .intro__navigation-nav_another {
     color: #34547A;
+}
+
+.intro__navigation-nav-home::before {
+    content: url(./img/home.png);
+    display: block;
+    position: absolute;
+    left: -50px;
+    top: -14px;
+}
+
+.intro__navigation-nav_boss::before {
+   content: url(./img/boss.png);
+   display: block;
+   position: absolute;
+   left: 103px;
+   top: -14px;
+}
+
+.intro__navigation-nav-case::before {
+   content: url(./img/suitcase.png);
+   display: block;
+   position: absolute;
+   left: 291px;
+   top: -14px;
+}
+
+.intro__navigation-nav-pro::before {
+    content: url(./img/engineering.png);
+    display: block;
+    position: absolute;
+    right: 221px;
+    top: -14px;
+}
+
+.intro__navigation-nav-contact::before {
+    content: url(./img/chat.png);
+    display: block;
+    position: absolute;
+    right: 82px;
+    top: -14px;
 }
 
 .intro__header-title {
