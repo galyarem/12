@@ -14,23 +14,23 @@
   display: flex;
 }
 
-.intro__navigation__list {
+.intro__navigation-list {
   padding: 45px 0 0;
 }
 
-.intro__navigation__nav-list {
+.intro__navigation-nav-list {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
 }
 
-.intro__navigation__nav-a {
+.intro__navigation-nav {
   text-transform: uppercase;
   color: black;
   font-size: 16px;
 }
 
-.another {
+.intro__navigation-nav_another {
   color: #34547A;
 }
 
@@ -47,11 +47,11 @@
   margin-top: 30px;
 }
 
-.intro__header__bottom {
+.intro__header-bottom {
   margin-top: 60px;
 }
 
-.intro__header__bottom-btn {
+.intro__header-bottom-btn {
   font-size: 16px;
   color: #FFFFFF;
   background-color: #34547A;
@@ -106,7 +106,7 @@
   float: left;
 }
 
-.numbers__item__title {
+.numbers__item-title {
   font-family: "Roboto Flex";
   font-weight: normal;
   color: #EEEFF1;
@@ -158,8 +158,8 @@
   margin-left: 280px;
 }
 
-.author__container__who,
-.author__container__who__when {
+.author__container-who,
+.author__container-who-when {
   color: #FFFFFF;
   margin-top: 10px;
   font-size: 13px;
