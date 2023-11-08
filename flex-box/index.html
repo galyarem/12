@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Beauty</title>
 </head>
 <body>
+   <div class="main-container">
     <header class="header">
         <div class="top-header-links">
             <div class="container">
@@ -71,10 +72,12 @@
     </header>
     <div class="slider-wrapper">
         <div class="container">
-            <h1 class="slider-wrapper-title">Super chair</h1>
-            <p class="slider-wrapper-text">The text of the action always reflects the <br /> essence, and not just <br />
+            <div class="container__chair">
+                <h1 class="slider-wrapper-title">Super chair</h1>
+                <p class="slider-wrapper-text">The text of the action always reflects the <br /> essence, and not just <br />
                 chatter, so be careful</p>
-            <button class="slider-wrapper-more">More</button>
+                <button class="slider-wrapper-more">More</button>
+            </div>
         </div>
     </div>
     <div class="grey-section">
@@ -110,17 +113,21 @@
         <div class="container red-box">
             <div class="delivery-box">
                 <div class="information-delivery">
-                    <span class="text-delivery">Get bonuses and gifts</span>
-                    <p class="p-delivery">Every month we play <br /> $1000 for our clients</p>
-                    <button class="button-delivery">Enter your e-mail</button>
+                    <div class="delivery__in">
+                        <span class="text-delivery">Get bonuses and gifts</span>
+                        <p class="p-delivery">Every month we play <br /> $1000 for our clients</p>
+                        <button class="button-delivery">Enter your e-mail</button>
+                    </div>
                 </div>
                 <img src="./img/envelope.png" alt="delivery" class="img-delivery">
             </div>
             <div class="post-box">
                 <div class="information-post">
-                    <span class="text-post">Visit us</span>
-                    <p class="p-post">Over 300 stores <br /> throughout the USA</p>
-                    <button class="button-post">Store map</button>
+                    <div class="post-in">
+                        <span class="text-post">Visit us</span>
+                        <p class="p-post">Over 300 stores <br /> throughout the USA</p>
+                        <button class="button-post">Store map</button>
+                    </div>
                 </div>
                 <img src="./img/x36  8.png" alt="post" class="img-post">
             </div>
