@@ -6,11 +6,6 @@
     overflow: hidden;
 }
 
-@media (max-width:888px) {
-    .container {
-
-    }
-}
 
 .grid-wrapper {
     display: grid;
