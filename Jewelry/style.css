@@ -61,12 +61,6 @@ body {
     background-color: #64463C;
 }
 
-@media (max-width:1198px) {
-    .header__second-container {
-
-    }
-}
-
 .header__search {
     display: flex;
     flex-wrap: wrap;
@@ -405,9 +399,6 @@ body {
     margin-bottom: 15px;
 }
 
-.footer__stay {
-
-}
 
 .footer__stay-title {
     font-size: 32px;
