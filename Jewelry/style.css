@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    overflow-x: hidden;
+    
 }
 
 .header__container {
@@ -21,6 +21,14 @@ body {
     justify-content: space-between;
     padding: 41px 0;
 }
+
+@media (max-width:730px) {
+    .header__container {
+        gap: 28px;
+        padding-left: 95px;
+    }
+}
+
 
 .header__contact-number {
     margin-right: 30px;
@@ -41,6 +49,13 @@ body {
 .header__list {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width:620px) {
+    .header__list {
+        gap: 28px;
+        width: 76%;
+    }
 }
 
 .header__item {
@@ -71,6 +86,12 @@ body {
     .header__search {
         display: block;
         padding: 20px 50px 20px 153px;
+    }
+}
+
+@media (max-width:509px) {
+    .header__search {
+        padding-left: 94px;
     }
 }
 
@@ -118,6 +139,13 @@ body {
     .header__logo-hurt {
         position: relative;
         top: -32px;
+    }
+}
+
+@media (max-width:620px) {
+    .header__logo-link {
+        position: relative;
+        left: -178px;
     }
 }
 
@@ -190,6 +218,13 @@ body {
     }
 }
 
+@media (max-width:1038px) {
+    .main__card {
+        display: inline;
+        white-space: pre-line;
+    }
+}
+
 .text {
     padding-top: 25px;
     color: #000;
@@ -209,8 +244,17 @@ body {
     }
 }
 
+@media (max-width: 970px) {
+    .main__box {
+        display: block;
+        gap: 10px;
+        white-space: pre-wrap;
+    }
+}
+
 .main__box-two {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #EEE;
     padding: 46px 180px 62px 42px;
 }
@@ -248,6 +292,7 @@ body {
 
 .container__card-recommend {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -290,6 +335,7 @@ body {
 @media (max-width:1078px) {
     .recommend__wrapper-both {
         display: flex;
+        flex-wrap: wrap;
         align-items: baseline;
         gap: 68px;
         padding-top: 36px;
@@ -318,6 +364,20 @@ body {
     }
 }
 
+@media (max-width: 906px) {
+    .benefits__both {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 86px;
+    }
+}
+
+@media (max-width:906px) {
+    .benefits-three {
+        margin-top: -8px;
+    }
+}
+
 .benefits-one::before {
     content: url(./img/delivery\ 1.png);
     display: block;
@@ -330,6 +390,14 @@ body {
     .benefits-one::before {
         display: block;
         left: 36%;
+    }
+}
+
+@media (max-width:906px) {
+    .benefits-one::before {
+        position: relative;
+        left: -49%;
+        top: 53%;
     }
 }
 
@@ -349,6 +417,14 @@ body {
     }
 }
 
+@media (max-width:906px) {
+    .benefits-two::before {
+        position: relative;
+        left: -35%;
+        top: 53%;
+    }
+}
+
 .benefits-three::before {
     content: url(./img/plane.png);
     display: block;
@@ -362,6 +438,14 @@ body {
         display: block;
         top: 62%;
         left: 36%;
+    }
+}
+
+@media (max-width:906px) {
+    .benefits-three::before {
+        position: relative;
+        left: -41%;
+        top: 49%;
     }
 }
 
@@ -379,6 +463,13 @@ body {
     justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 236px;
+}
+
+@media (max-width: 668px) {
+    .footer__container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
 
 .footer__table {
